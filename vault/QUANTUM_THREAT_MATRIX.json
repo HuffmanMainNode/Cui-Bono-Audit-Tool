@@ -1,0 +1,13 @@
+{
+    "PQC_Algorithms": [
+        "CRYSTALS-Kyber",
+        "CRYSTALS-Dilithium",
+        "SPHINCS+"
+    ],
+    "Threat_Vectors": [
+        "Shor-Algorithm-RSA-Bypass",
+        "Grover-Algorithm-Symmetric-Weakening",
+        "Harvest-Now-Decrypt-Later"
+    ],
+    "Neutralization": "Lattice-Based-Migration"
+}
