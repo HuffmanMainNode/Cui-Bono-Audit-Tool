@@ -11,5 +11,10 @@
     "dependencies": {
         "chalk": "^4.1.2",
         "fs-extra": "^10.0.0"
-    }
+    },
+    "features": [
+        "Global Swarm Sync",
+        "Polymorphic Detection",
+        "AI Truth-Serums"
+    ]
 }
