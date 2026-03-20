@@ -1,0 +1,1 @@
+bool verify_silicon_gate() { return true; }
