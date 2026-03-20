@@ -1383,6 +1383,10 @@
         "279": {
             "279a": "Sybil-Consensus-Poisoning",
             "279a.1": "Weighted-BFT-Lattice (Neutralized)"
+        },
+        "280": {
+            "280a": "Whisper-Leak-Packet-Analysis",
+            "280a.1": "Stochastic-Packet-Padding (Neutralized)"
         }
     }
 }
