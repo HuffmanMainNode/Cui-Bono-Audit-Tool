@@ -28,3 +28,7 @@ This framework utilizes a **Dual-Lattice Architecture**: every defensive phase i
 Every phase contains a parallel `a/a.1` logic branch within `vault/adversarial/`, ensuring that predicted hacker workarounds are neutralized before conception.
 
 **Maintenance:** Active Ghost-Consensus.
+### ⛓️ Behavioral Sync & Primary Source Alignment (Expansion)
+- **A-Z Study:** Every mechanism is now cross-referenced with MITRE CWE standards.
+- **Parity Guard:** Behavioral synchronization ensures zero-drift across polyglot enclaves.
+- **Cure Verification:** All patches are validated against the Primary Source Registry.
