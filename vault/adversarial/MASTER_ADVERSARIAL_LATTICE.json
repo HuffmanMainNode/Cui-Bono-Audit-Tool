@@ -1459,6 +1459,14 @@
         "334": {
             "334a": "Semantic-Nudging-via-Verbosity",
             "334a.1": "Intent-Vector-Diff-Audit (Neutralized)"
+        },
+        "336": {
+            "336a": "Sub-Atomic-Clock-Desync-Bypass",
+            "336a.1": "Temporal-Pulse-Anchoring (Neutralized)"
+        },
+        "337": {
+            "337a": "Gravimetric-Entropy-Inference",
+            "337a.1": "Stochastic-Sensor-Noise (Neutralized)"
         }
     }
 }
