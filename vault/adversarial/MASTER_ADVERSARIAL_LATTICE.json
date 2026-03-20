@@ -1427,6 +1427,10 @@
         "296": {
             "296a": "Polyglot-Linguistic-Crosstalk-Injection",
             "296a.1": "Recursive-Script-Normalization (Neutralized)"
+        },
+        "298": {
+            "298a": "Typographic-Visual-Privilege-Escalation",
+            "298a.1": "Visual-Intent-Auth-Correlation (Neutralized)"
         }
     }
 }
