@@ -1,0 +1,1 @@
+export const verifyTEE = (token: string): boolean => !!token;
