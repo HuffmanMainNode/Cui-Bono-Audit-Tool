@@ -1439,6 +1439,10 @@
         "308": {
             "308a": "JSON-Parameter-Smuggling-via-Middleware",
             "308a.1": "Strict-Kernel-Key-Flattening (Neutralized)"
+        },
+        "309": {
+            "309a": "Regex-DoS-via-Backtracking-Injection",
+            "309a.1": "Static-Complexity-Analysis (Neutralized)"
         }
     }
 }
