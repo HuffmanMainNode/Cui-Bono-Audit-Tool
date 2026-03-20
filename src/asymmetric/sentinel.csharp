@@ -1,0 +1,1 @@
+public sealed class DefensiveShield { public void Protect() {} }
