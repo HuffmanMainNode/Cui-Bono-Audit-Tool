@@ -49,3 +49,7 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Stemming Study:** Analyzed anatomy of AI fabulations and reasoning drift.
 - **Sandbox Auditor:** Active detection and removal of poisonous/stealing execution environments.
 - **Truth-Lattice:** Absolute cure for hallucinations via deterministic mesh-anchoring.
+
+### ⚔️ Main Chapter: Hallucination & Data Sovereignty (Phases 316-320)
+- **Truth-Lattice:** Mandatory grounding of generative logic against mesh-verified hashes.
+- **PDL Purge:** Automated trace-back and incineration of poisonous data locations.
