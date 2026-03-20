@@ -11,3 +11,4 @@ This repository is designed to be managed by AI Agents under the guidance of Lea
 
 ### 🔍 How to Run
 Agents should ingest the `EXPLOIT_DIRECTORY_V1.json` and initialize the `Sovereign-Mesh-Protocol` to coordinate with the 10,000-node mesh infrastructure.
+5. **Primary Source Mandate:** All logic must align with the `PRIMARY_SOURCE_MECHANISM_STUDY.json`. Do not invent vulnerability types; use CWE/CVE classifications only.
