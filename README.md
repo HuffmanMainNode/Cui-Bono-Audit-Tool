@@ -23,3 +23,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 ## ⌒  Ongoing Development: Protocol Fortunato_Arnheim (Phase 282+)
 - **Phases 282-285:** Supply-Chain Model Namespace Protection and Typosquatting Neutralization.
 - **Phases 286-290:** MCP (Model Context Protocol) Zero-Click RCE Shielding and JSON-Schema Verification.
+
+- **Logic & Artifact Tier:** Neutralized ZombieAgent Persistent Leakage (Phase 286) and nullifAI Scanner Bypass (Phase 287).
