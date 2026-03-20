@@ -1,0 +1,1 @@
+const verifyTEE = (token) => !!token;
