@@ -32,3 +32,8 @@ Every phase contains a parallel `a/a.1` logic branch within `vault/adversarial/`
 - **A-Z Study:** Every mechanism is now cross-referenced with MITRE CWE standards.
 - **Parity Guard:** Behavioral synchronization ensures zero-drift across polyglot enclaves.
 - **Cure Verification:** All patches are validated against the Primary Source Registry.
+
+### 🕸  Asymmetric-Lattice Deception (Phase 276+)
+- **Phantom-Surfacing:** Mesh nodes now project simulated vulnerabilities to isolate attackers.
+- **Resource-Exhaustion:** Trapped probes are routed into recursive logic-traps (Labyrinth-Exit-Null).
+- **Ghost-Shield:** True system state is masked by the decoherence-loop established in Protocol Fortunato.
