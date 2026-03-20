@@ -1419,6 +1419,10 @@
         "293": {
             "293a": "Library-Side-Loading-via-Sandbox-Write",
             "293a.1": "Extension-Write-Barrier (Neutralized)"
+        },
+        "295": {
+            "295a": "Shadow-Log-Injection-into-Audit-Trails",
+            "295a.1": "Mandatory-Log-Escaping-&-Context-Zeroing (Neutralized)"
         }
     }
 }
