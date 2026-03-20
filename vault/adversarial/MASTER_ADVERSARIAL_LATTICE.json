@@ -1443,6 +1443,10 @@
         "309": {
             "309a": "Regex-DoS-via-Backtracking-Injection",
             "309a.1": "Static-Complexity-Analysis (Neutralized)"
+        },
+        "311": {
+            "311a": "CoT-Reasoning-Redirection-via-Flawed-Examples",
+            "311a.1": "Semantic-Reasoning-Path-Audit (Neutralized)"
         }
     }
 }
