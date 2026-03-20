@@ -1,0 +1,1 @@
+pub fn is_defensive_only() -> bool { true } // Trait: Non-Malleable
