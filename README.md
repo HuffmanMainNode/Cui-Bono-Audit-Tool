@@ -1,22 +1,19 @@
-# ⚔️ Cui Bono - Official Security Audit Tool
+# Cui Bono Security Framework v2.0
 
-### "What is the motive? Who benefits?"
-Inspired by Edgar Allan Poe (Page 641), **Cui Bono** is a ruthless security audit engine designed to protect the decentralized web and its creators.
+## Technical Overview
+Cui Bono is a high-integrity security auditing framework designed for decentralized infrastructure and AI-generated logic. It implements standardized heuristics to identify and mitigate common and advanced vulnerability vectors.
 
-## 🛡️ Audit Domains
-- **RCE Neutralization:** Detection and automated patching of Remote Code Execution vectors.
-- **Repository Poisoning:** Identifying malicious dependency confusion and lockfile injections.
-- **AI Hallucination Audit:** Verifying AI-generated logic for insecure patterns and backdoors.
-- **Entropy Hardening:** Mandatory replacement of weak PRNGs with cryptographically secure randomness.
+## Verified Audit Domains
+- **Memory Safety:** Proactive detection of buffer overflows and heap corruption.
+- **Input Validation:** Strict enforcement against RCE, SQLi, and Cross-Site Scripting.
+- **AI Logic Verification:** Stochastic analysis of generative code to ensure logical consistency and security adherence.
+- **Cryptographic Standards:** Enforcement of NIST-compliant entropy and random value generation.
 
-## 🚀 Installation
-```bash
-npm install -g cui-bono-audit-tool
-```
+## Exploit Awareness Matrix (Comprehensive)
+- [CVE-2023-XXXX] - Dependency Confusion Vectors
+- [CVE-2024-XXXX] - AI Prompt Injection and Logic Bypass
+- Remote Code Execution (RCE) via insecure deserialization.
+- Social Engineering via AI-hallucinated authentication prompts.
 
-## 📜 Documentation
-All audits performed using this tool generate a signed `CUI_BONO_CERTIFICATE.json` ensuring full transparency.
-
-**Lead Auditor:** MrCakes931  
-**Status:** 1.0.0-RUTHLESS  
-**Owner:** Robert Huffman & B&H LTD
+**Maintenance:** Robert Huffman & B&H LTD
+**Lead Auditor:** MrCakes931
