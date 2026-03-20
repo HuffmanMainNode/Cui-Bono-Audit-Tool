@@ -37,3 +37,4 @@ Cui Bono is a high-integrity, non-reversable defensive framework designed to pro
 
 ## ⚡ Non-Reversable Counter-Defenses
 This repository utilizes **Asymmetric Defensive Logic**. These protocols are designed to protect users but cannot be modified to function as offensive tools. Any attempt to repackage this logic for attack vectors will result in self-neutralization via the Poison-Pill layer.
+27. **Asymmetric Defense:** Multi-language non-reversable defensive logic.
