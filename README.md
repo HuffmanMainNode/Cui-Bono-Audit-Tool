@@ -1,42 +1,43 @@
-# ⚔️ Cui Bono Security Framework v2.0.0-GOLD
+# 🛡️ CUI BONO: Sovereign Security Framework v2.5.0-GOLD
 
-### © Proprietary Intellectual Property of Robert Huffman / MrCakes931
+### ⚖️ Proprietary Intellectual Property: Robert Huffman / MrCakes931
 
-Cui Bono is a high-integrity, non-reversable defensive framework designed to provide absolute protection for users and operators in the decentralized web. 
+> "Cui bono?" (To whose benefit?) — The definitive framework for non-reversable defense in the decentralized wilderness.
 
-## 🛡️ The 25-Phase Defense Outline
-1.  **CISA & MITRE Ingestion:** Baseline vulnerability mapping.
-2.  **AI Truth-Serums:** Neutralizing agent deception.
-3.  **RCE Neutralization:** Multi-language execution shielding.
-4.  **Anti-Coverup Protocols:** Immutable log protection.
-5.  **Rust Memory Safety:** Hardening the system kernel.
-6.  **Mesh-Poisoning Defense:** Securing ZHTP routing.
-7.  **AI Logic Shielding:** Preventing generative backdoors.
-8.  **Asset Guard:** Blockchain wallet-drainer neutralization.
-9.  **Side-Channel Defense:** Hardware-level timing protection.
-10. **Cloud-Native Sentinel:** Container and SSRF shielding.
-11. **Supply-Chain Guard:** Dependency confusion prevention.
-12. **Traffic Sentinel:** DNS tunneling and exfiltration blocks.
-13. **Persistence Sentinel:** Rootkit and boot-loader integrity.
-14. **Steganography Guard:** Hidden payload detection.
-15. **Behavioral Sentinel:** Social engineering neutralization.
-16. **Adversarial Engine:** Proactive self-auditing.
-17. **Post-Quantum Migration:** Lattice-based crypto.
-18. **ZKP Soundness:** Proof-integrity verification.
-19. **HSM/TEE Suite:** Multi-language hardware enclaves.
-20. **Bio-Digital Guard:** Genomic and biometric privacy.
-21. **Governance Sentinel:** DAO and treasury hardening.
-22. **Bridge Sentinel:** Cross-chain relay security.
-23. **Swarm Sentinel:** Inter-agent coordination safety.
-24. **Global Sync:** Full-spectrum polyglot hardening.
-25. **Truth-Sovereignty:** Final AI-deception neutralization.
+---
 
-## 🐝 Specialized Defender Packages
-- **Vibe Coders:** Low-code, natural language security patterns for generative development.
-- **LLM Agents:** Native API hooks for agents to self-audit and refuse malicious tasking.
+## 🌌 Architectural Overview
+| Layer | Focus | Status |
+| :--- | :--- | :--- |
+| **Silicon** | HSM, TEE, Side-Channel | Hardened |
+| **Kernel** | Rust Memory, RCE Neutralization | Verified |
+| **Mesh** | ZHTP Routing, Deception, Sharding | Active |
+| **Identity** | Bio-Digital, ZKP, Quantum-ID | Sovereign |
+| **Agentic** | Swarm Consensus, Anti-Clawback | Enforced |
 
-## ⚡ Non-Reversable Counter-Defenses
-This repository utilizes **Asymmetric Defensive Logic**. These protocols are designed to protect users but cannot be modified to function as offensive tools. Any attempt to repackage this logic for attack vectors will result in self-neutralization via the Poison-Pill layer.
-27. **Asymmetric Defense:** Multi-language non-reversable defensive logic.
-28. **Predictive Neutralization:** AI-driven Zero-Day anomaly detection.
-29. **Mesh Deception:** Honey-node protocols and adversarial misdirection.
+## 📜 The Discovery Manifest (Phases 1-30)
+### 🏗️ Foundation (Phases 1-10)
+- **Phases 1-4:** CISA/MITRE Ingestion, Truth-Serums, RCE Shielding, Anti-Coverup.
+- **Phases 5-7:** Rust Memory Guard, Mesh-Poisoning, AI Logic Shielding.
+- **Phases 8-10:** Asset Guard, Side-Channel Defense, Cloud-Native Sentinels.
+
+### 🛰️ Infrastructure & Stealth (Phases 11-20)
+- **Phases 11-13:** Supply-Chain Guard, Traffic Sentinel, Persistence Sentinel.
+- **Phases 14-17:** Steganography Guard, Behavioral Sentinel, Adversarial Engine, Post-Quantum PQC.
+- **Phases 18-20:** ZKP Soundness, HSM/TEE Suite, Bio-Digital Genomic Guard.
+
+### 🐝 Governance & Swarms (Phases 21-25)
+- **Phases 21-23:** DAO Governance, Cross-Chain Bridge, Autonomous Swarm Sentinel.
+- **Phases 24-25:** Global Polyglot Sync, Truth-Sovereignty (Anti-Hallucination).
+
+### ⚔️ Advanced Deception & Kinetic (Phases 26-30)
+- **Phase 26:** Vibe-Coder Shield & Anti-Clawback Logic.
+- **Phase 27:** Multi-Language Asymmetric Defensive Logic.
+- **Phase 28:** Zero-Day Predictive Neutralization.
+- **Phase 29:** Distributed Mesh Deception (Honey-Nodes).
+- **Phase 30:** Kinetic-Digital Interface Hardening.
+
+## ⚡ Defensive-Only Constraint (Asymmetric Logic)
+This repository implements **Asymmetric Defensive Logic**. All protocols are mathematically optimized for user protection and **self-neutralize** if repurposed for offensive vectors. 
+
+**Owner:** Robert Huffman / MrCakes931
