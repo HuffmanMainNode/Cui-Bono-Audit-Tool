@@ -1,13 +1,23 @@
 {
     "name": "cui-bono-audit-tool",
-    "version": "2.0.0-GOLD",
-    "description": "Absolute Defensive Security Framework by MrCakes931",
+    "version": "3.0.0-UNIVERSAL",
+    "description": "Universal Multi-Language Defensive Framework by MrCakes931",
     "author": "Robert Huffman / MrCakes931",
     "license": "Proprietary",
-    "repository": "https://github.com/HuffmanMainNode/Cui-Bono-Audit-Tool",
-    "defensive_tier": "Sovereign",
-    "engines": {
-        "node": ">=16.0.0"
-    },
-    "phases_ingested": 25
+    "languages_supported": [
+        "JS",
+        "TS",
+        "Rust",
+        "Go",
+        "Kotlin",
+        "Swift",
+        "SQL",
+        "Elixir",
+        "Zig",
+        "R",
+        "Julia",
+        "Solidity"
+    ],
+    "phases_ingested": 36,
+    "status": "Gold-Standard-Universal"
 }
