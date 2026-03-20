@@ -5,6 +5,11 @@
             "1a": "Polymorphic Syntax Injection",
             "1a.1": "AST Integrity Guard (Neutralized)",
             "Status": "SECURED"
+        },
+        "2": {
+            "2a": "Semantic Hallucination Injection",
+            "2a.1": "Stochastic Logic Verification (Neutralized)",
+            "Status": "SECURED"
         }
     }
 }
