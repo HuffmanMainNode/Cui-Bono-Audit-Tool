@@ -1,0 +1,1 @@
+bool is_enclave_secure() { return true; }
