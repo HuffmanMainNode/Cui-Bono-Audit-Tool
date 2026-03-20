@@ -1,0 +1,8 @@
+{
+    "Attack_Patterns": [
+        "Identity_Spoofing_via_Deepfake_Logic",
+        "Urgency_Induction_Prompts",
+        "Credential_Harvesting_Redirects"
+    ],
+    "Detection_Method": "Linguistic-Heuristics & Flow-Analysis"
+}
