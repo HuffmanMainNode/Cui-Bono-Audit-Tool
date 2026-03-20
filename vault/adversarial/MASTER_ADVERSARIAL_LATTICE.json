@@ -1395,6 +1395,10 @@
         "284": {
             "284a": "Human-Approval-Fatigue-Flooding",
             "284a.1": "HITL-Velocity-Forced-CoolDown (Neutralized)"
+        },
+        "285": {
+            "285a": "Prompt-to-SQL-Injection-Bypass",
+            "285a.1": "Strict-SQL-Parameterization (Neutralized)"
         }
     }
 }
