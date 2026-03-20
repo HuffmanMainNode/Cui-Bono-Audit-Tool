@@ -3,5 +3,10 @@
         "Adversarial_Move": "1a: Shadow-Logic Injection",
         "Proactive_Cure": "1a.1: Intent-Stochastic-Serialization",
         "Status": "LOCKED"
+    },
+    "Phase_2": {
+        "Adversarial_Move": "2a: Semantic Hallucination Injection",
+        "Proactive_Cure": "2a.1: Stochastic Logic Verification",
+        "Status": "LOCKED"
     }
 }
