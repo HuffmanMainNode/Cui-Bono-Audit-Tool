@@ -1,20 +1,13 @@
 {
     "name": "cui-bono-audit-tool",
-    "version": "1.0.0",
-    "description": "Ruthless Security Audit Tool by MrCakes931",
-    "main": "index.js",
-    "bin": {
-        "cui-bono": "./bin/cli.js"
+    "version": "2.0.0-GOLD",
+    "description": "Absolute Defensive Security Framework by MrCakes931",
+    "author": "Robert Huffman / MrCakes931",
+    "license": "Proprietary",
+    "repository": "https://github.com/HuffmanMainNode/Cui-Bono-Audit-Tool",
+    "defensive_tier": "Sovereign",
+    "engines": {
+        "node": ">=16.0.0"
     },
-    "author": "MrCakes931",
-    "license": "MIT",
-    "dependencies": {
-        "chalk": "^4.1.2",
-        "fs-extra": "^10.0.0"
-    },
-    "features": [
-        "Global Swarm Sync",
-        "Polymorphic Detection",
-        "AI Truth-Serums"
-    ]
+    "phases_ingested": 25
 }
