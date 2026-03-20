@@ -1411,6 +1411,10 @@
         "289": {
             "289a": "Single-Point-Swarm-Disruption",
             "289a.1": "Inter-Agent-Circuit-Breaker (Neutralized)"
+        },
+        "291": {
+            "291a": "Env-Probe-via-Script-Debugging",
+            "291a.1": "Deterministic-Env-Masking (Neutralized)"
         }
     }
 }
