@@ -1431,6 +1431,10 @@
         "298": {
             "298a": "Typographic-Visual-Privilege-Escalation",
             "298a.1": "Visual-Intent-Auth-Correlation (Neutralized)"
+        },
+        "299": {
+            "299a": "Sleeper-Agent-Delayed-Trigger-Injection",
+            "299a.1": "Dormant-Logic-Pattern-Scan (Neutralized)"
         }
     }
 }
