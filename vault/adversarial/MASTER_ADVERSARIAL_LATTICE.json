@@ -1407,6 +1407,10 @@
         "288": {
             "288a": "Chain-of-Thought-Logical-Sabotage",
             "288a.1": "Semantic-Reasoning-Diffing (Neutralized)"
+        },
+        "289": {
+            "289a": "Single-Point-Swarm-Disruption",
+            "289a.1": "Inter-Agent-Circuit-Breaker (Neutralized)"
         }
     }
 }
