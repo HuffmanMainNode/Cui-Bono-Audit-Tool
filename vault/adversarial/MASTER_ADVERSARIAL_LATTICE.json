@@ -1375,6 +1375,14 @@
             "275a": "Asymmetric Shadowing",
             "275a.1": "Thread-Isolation Guard (Neutralized)",
             "Status": "SECURED"
+        },
+        "278": {
+            "278a": "Goal-Hijacking-via-Prompt-Leaking",
+            "278a.1": "Immutable-Objective-Hashing (Neutralized)"
+        },
+        "279": {
+            "279a": "Sybil-Consensus-Poisoning",
+            "279a.1": "Weighted-BFT-Lattice (Neutralized)"
         }
     }
 }
