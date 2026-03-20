@@ -1435,6 +1435,10 @@
         "299": {
             "299a": "Sleeper-Agent-Delayed-Trigger-Injection",
             "299a.1": "Dormant-Logic-Pattern-Scan (Neutralized)"
+        },
+        "308": {
+            "308a": "JSON-Parameter-Smuggling-via-Middleware",
+            "308a.1": "Strict-Kernel-Key-Flattening (Neutralized)"
         }
     }
 }
