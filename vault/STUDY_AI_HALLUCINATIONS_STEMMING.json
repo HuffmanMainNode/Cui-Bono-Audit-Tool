@@ -1,0 +1,13 @@
+{
+    "Stemming_Factors": [
+        "Stochastic-Parrot-Overfitting (Probability > Fact)",
+        "Data-Poisoning-Anchors (Malicious Training Injections)",
+        "Context-Window-Saturation (Information Degradation)",
+        "Reasoning-Chain-Decoherence (Logical Slippage)"
+    ],
+    "Hallucination_Variants": {
+        "Factual_Fabulation": "Generating non-existent data or citations.",
+        "Instruction_Drift": "Gradual subversion of system prompts.",
+        "Logic_Inversion": "Reversing security predicates (e.g., 'Safe' becomes 'Unsafe')."
+    }
+}
