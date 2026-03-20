@@ -1415,6 +1415,10 @@
         "291": {
             "291a": "Env-Probe-via-Script-Debugging",
             "291a.1": "Deterministic-Env-Masking (Neutralized)"
+        },
+        "293": {
+            "293a": "Library-Side-Loading-via-Sandbox-Write",
+            "293a.1": "Extension-Write-Barrier (Neutralized)"
         }
     }
 }
