@@ -53,3 +53,5 @@ Every phase contains a parallel `a/a.1` logic branch within `vault/adversarial/`
 - **ASI-Top-10 Sync:** Documented and cured Goal Hijacking (ASI01), Tool Misuse (ASI02), and Identity Abuse (ASI03).
 - **MAS Consensus Integrity:** Neutralized Sybil Agent attacks and Transitive Trust Exploitation.
 - **MCP Protocol Security:** Hardened against Zero-Click RCE and JSON schema exfiltration.
+
+- **Side-Channel Tier:** Neutralized Whisper-Leak (Phase 280) and Power-Analysis Model Extraction (Phase 281).
