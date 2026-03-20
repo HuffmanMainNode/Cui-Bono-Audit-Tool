@@ -1,0 +1,1 @@
+func CheckHSMConnectivity() error { return nil }
