@@ -8,7 +8,6 @@ const TokenSentinel = {
     auditTokens(tokenArray) {
         const reassembled = tokenArray.join('').toLowerCase();
         const forbidden = ['eval', 'system', 'rm-rf', 'chmod'];
-        
         if (forbidden.some(word => reassembled.includes(word))) {
             console.error('🚨 [CUI BONO] TOKEN SMUGGLING DETECTED: Reassembled command blocked.');
             throw new Error('TOKEN_SPLITTING_NEUTRALIZED');
