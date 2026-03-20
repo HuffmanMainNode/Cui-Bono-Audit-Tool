@@ -1,0 +1,1 @@
+const coreIntegrity = () => true;
