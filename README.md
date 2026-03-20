@@ -29,3 +29,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Agentic Resilience Tier:** Neutralized Cascading Failures (Phase 289) and Rogue Agent Divergence (Phase 290). 2026 Dossier Sync Complete.
 
 - **Hardware & Forensic Tier:** Neutralized Sandbox Side-Loading (Phase 293) and GPU VRAM Ghosting (Phase 294).
+
+- **Linguistic Stealth Tier:** Neutralized Polyglot Crosstalk (Phase 296) and Token Splitting (Phase 297).
