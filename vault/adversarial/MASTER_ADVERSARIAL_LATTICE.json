@@ -1391,6 +1391,10 @@
         "283": {
             "283a": "Zero-Click-MCP-Schema-Exploitation",
             "283a.1": "Strict-Schema-Domain-Allowlisting (Neutralized)"
+        },
+        "284": {
+            "284a": "Human-Approval-Fatigue-Flooding",
+            "284a.1": "HITL-Velocity-Forced-CoolDown (Neutralized)"
         }
     }
 }
