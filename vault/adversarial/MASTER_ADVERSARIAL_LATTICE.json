@@ -1403,6 +1403,10 @@
         "286": {
             "286a": "ZombieAgent-RAG-Context-Poisoning",
             "286a.1": "Stochastic-Context-Flush (Neutralized)"
+        },
+        "288": {
+            "288a": "Chain-of-Thought-Logical-Sabotage",
+            "288a.1": "Semantic-Reasoning-Diffing (Neutralized)"
         }
     }
 }
