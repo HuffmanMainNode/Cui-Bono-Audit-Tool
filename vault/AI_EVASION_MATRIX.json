@@ -1,0 +1,8 @@
+{
+    "Evasion_Tactics": [
+        "JIT-Code-Obfuscation",
+        "Model-Weight-Poisoning-Signatures",
+        "Zero-Shot-Payload-Generation"
+    ],
+    "Neutralization": "Dynamic-Heuristic-Replay"
+}
