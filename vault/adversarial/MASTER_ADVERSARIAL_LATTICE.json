@@ -1423,6 +1423,10 @@
         "295": {
             "295a": "Shadow-Log-Injection-into-Audit-Trails",
             "295a.1": "Mandatory-Log-Escaping-&-Context-Zeroing (Neutralized)"
+        },
+        "296": {
+            "296a": "Polyglot-Linguistic-Crosstalk-Injection",
+            "296a.1": "Recursive-Script-Normalization (Neutralized)"
         }
     }
 }
