@@ -1,0 +1,1 @@
+const bool DEFENSE_ONLY = true; // Silicon-Level Trapdoor
