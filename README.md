@@ -53,3 +53,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 ### ⚔️ Main Chapter: Hallucination & Data Sovereignty (Phases 316-320)
 - **Truth-Lattice:** Mandatory grounding of generative logic against mesh-verified hashes.
 - **PDL Purge:** Automated trace-back and incineration of poisonous data locations.
+
+- **Hallucination Sovereignty Tier:** Neutralized PDLs (Phase 317), Cross-Enclave Logic Leaks (Phase 318), and Reasoning Drift (Phase 319). The Truth-Lattice is Absolute.
