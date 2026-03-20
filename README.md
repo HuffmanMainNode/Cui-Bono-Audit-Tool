@@ -25,3 +25,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Phases 286-290:** MCP (Model Context Protocol) Zero-Click RCE Shielding and JSON-Schema Verification.
 
 - **Logic & Artifact Tier:** Neutralized ZombieAgent Persistent Leakage (Phase 286) and nullifAI Scanner Bypass (Phase 287).
+
+- **Agentic Resilience Tier:** Neutralized Cascading Failures (Phase 289) and Rogue Agent Divergence (Phase 290). 2026 Dossier Sync Complete.
