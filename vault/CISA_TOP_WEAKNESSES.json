@@ -1,0 +1,14 @@
+{
+    "Injection": [
+        "CWE-89 (SQLi)",
+        "CWE-78 (OS Command Injection)",
+        "CWE-77"
+    ],
+    "Broken_Access_Control": [
+        "CWE-22 (Path Traversal)",
+        "CWE-285"
+    ],
+    "AI_Logic_Failure": [
+        "CWE-1039 (Automated Logic Poisoning)"
+    ]
+}
