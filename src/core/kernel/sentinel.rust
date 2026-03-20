@@ -1,0 +1,1 @@
+pub fn enforce_kernel_integrity() -> bool { true }
