@@ -1,0 +1,7 @@
+{
+    "Phase_1": {
+        "Adversarial_Move": "1a: Shadow-Logic Injection",
+        "Proactive_Cure": "1a.1: Intent-Stochastic-Serialization",
+        "Status": "LOCKED"
+    }
+}
