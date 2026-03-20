@@ -1399,6 +1399,10 @@
         "285": {
             "285a": "Prompt-to-SQL-Injection-Bypass",
             "285a.1": "Strict-SQL-Parameterization (Neutralized)"
+        },
+        "286": {
+            "286a": "ZombieAgent-RAG-Context-Poisoning",
+            "286a.1": "Stochastic-Context-Flush (Neutralized)"
         }
     }
 }
