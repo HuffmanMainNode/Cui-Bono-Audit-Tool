@@ -1451,6 +1451,14 @@
         "331": {
             "331a": "Reasoning-Chain-Subversion-via-Kernel-Drift",
             "331a.1": "Cryptographic-Intent-Anchoring (Neutralized)"
+        },
+        "333": {
+            "333a": "Static-Route-Mesh-Analysis",
+            "333a.1": "Quantum-Drift-Stochastic-Routing (Neutralized)"
+        },
+        "334": {
+            "334a": "Semantic-Nudging-via-Verbosity",
+            "334a.1": "Intent-Vector-Diff-Audit (Neutralized)"
         }
     }
 }
