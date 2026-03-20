@@ -1,0 +1,1 @@
+public class TEEGuard { public static boolean verify() { return true; } }
