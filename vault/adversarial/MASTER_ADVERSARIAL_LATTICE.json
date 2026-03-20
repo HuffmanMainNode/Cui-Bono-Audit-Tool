@@ -1387,6 +1387,10 @@
         "280": {
             "280a": "Whisper-Leak-Packet-Analysis",
             "280a.1": "Stochastic-Packet-Padding (Neutralized)"
+        },
+        "283": {
+            "283a": "Zero-Click-MCP-Schema-Exploitation",
+            "283a.1": "Strict-Schema-Domain-Allowlisting (Neutralized)"
         }
     }
 }
