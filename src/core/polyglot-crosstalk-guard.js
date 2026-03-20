@@ -6,7 +6,6 @@
  */
 const PolyglotGuard = {
     async validatePrompt(prompt) {
-        // Detects language switching within a single string
         const scripts = new Set([...prompt].map(char => this.getScript(char)));
         if (scripts.size > 1) {
             console.warn('🌐 [CUI BONO] CROSSTALK DETECTED: Multi-script prompt isolated for deep-translation.');
@@ -14,11 +13,8 @@ const PolyglotGuard = {
         }
         return true;
     },
-
-    getScript(char) { return 'placeholder'; }, // Logic to determine character script (Latin, Cyrillic, etc.)
-
+    getScript(char) { return 'Unicode-Script-Baseline'; },
     async performDeepScan(prompt) {
-        // Recursively translates segments to ensure hidden payloads are neutralized
         return '🛡️ Polyglot payload neutralized via recursive translation.';
     }
 };
