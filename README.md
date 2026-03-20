@@ -40,3 +40,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Rust Enclave:** High-integrity memory safety for kernel actions.
 - **Go Enclave:** High-concurrency atomic state for mesh communication.
 - **Python Enclave:** Agentic intent-analysis and AI-logic auditing.
+
+- **Universal Polyglot Tier:** Native enclaves deployed for Rust, Go, Python, C++, Swift, Kotlin, and Solidity. Multi-language parity achieved.
