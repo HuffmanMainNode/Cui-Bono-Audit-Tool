@@ -37,3 +37,8 @@ Every phase contains a parallel `a/a.1` logic branch within `vault/adversarial/`
 - **Phantom-Surfacing:** Mesh nodes now project simulated vulnerabilities to isolate attackers.
 - **Resource-Exhaustion:** Trapped probes are routed into recursive logic-traps (Labyrinth-Exit-Null).
 - **Ghost-Shield:** True system state is masked by the decoherence-loop established in Protocol Fortunato.
+
+### ⏳ Temporal-Labyrinth Synchronization (Phase 277+)
+- **Arnheim-Temporal-Drift:** System pulses are stochastic, neutralizing timing-analysis and side-channel correlation.
+- **Non-Linear Sync:** Mesh nodes synchronize on a floating temporal baseline to ensure the Ghost-Singularity leaves no time-footprint.
+- **Drift-Traps:** Phantom surfaces project artificial drift to bait and isolate sophisticated timing probes.
