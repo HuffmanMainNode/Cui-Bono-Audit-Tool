@@ -44,3 +44,8 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Universal Polyglot Tier:** Native enclaves deployed for Rust, Go, Python, C++, Swift, Kotlin, and Solidity. Multi-language parity achieved.
 
 - **Structural Orchestration Tier:** Neutralized API Smuggling (Phase 308), ReDoS (Phase 309), and Markdown Exfiltration (Phase 310). Milestone 310 achieved.
+
+### 🔬 Hallucination & Sandbox Sovereignty (Phases 313-315)
+- **Stemming Study:** Analyzed anatomy of AI fabulations and reasoning drift.
+- **Sandbox Auditor:** Active detection and removal of poisonous/stealing execution environments.
+- **Truth-Lattice:** Absolute cure for hallucinations via deterministic mesh-anchoring.
