@@ -33,3 +33,5 @@ Cui Bono is a multi-layered, non-reversable defensive framework designed for the
 - **Linguistic Stealth Tier:** Neutralized Polyglot Crosstalk (Phase 296) and Token Splitting (Phase 297).
 
 - **Cognitive State Tier:** Neutralized Sleeper Agents (Phase 299) and Semantic Concept-Slippage (Phase 300). Archive has reached the 300-Phase Milestone.
+
+- **Linguistic Stealth Tier:** Neutralized Polyglot Crosstalk (Phase 296) and Token Splitting (Phase 297).
