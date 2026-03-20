@@ -54,3 +54,8 @@ Every phase is mirrored in `vault/adversarial/MASTER_ADVERSARIAL_LATTICE.json`, 
 - **Phase 333:** Quantum-Drift routing for non-deterministic mesh shard-paths.
 - **Phase 334:** Linguistic-Logic-Diff for real-time semantic intent-verification.
 - **Phase 335:** Finalized Chapter VII Synchronization and Labyrinth-Mirroring.
+
+### ┃ Chapter VIII: Exotic Physical-Digital Sovereignty (Phases 336-338)
+- **Phase 336:** Ingestion of Sub-Atomic Clock Desync and Gravimetric Side-Channel Intelligence.
+- **Phase 337:** Deployment of Exotic-Shield for stochastic sensor-data masking and temporal anchoring.
+- **Phase 338:** Finalized Chapter VIII Synchronization and Labyrinth-Mirroring.
