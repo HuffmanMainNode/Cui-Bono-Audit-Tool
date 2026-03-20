@@ -1,0 +1,9 @@
+{
+    "Variant_Family": "KimWolf / Hidden-Wolf / Dark-Stealer",
+    "Targets": [
+        "Browser_Extension_Wallets",
+        "Local_Env_Secrets",
+        "SSH_Keys"
+    ],
+    "Neutralization_Vector": "Filesystem-Hook-Verification"
+}
