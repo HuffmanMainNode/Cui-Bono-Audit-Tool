@@ -1,0 +1,1 @@
+public class SovereignGuard { public boolean isHardened() { return true; } }
