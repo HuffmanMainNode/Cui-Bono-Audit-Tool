@@ -1,0 +1,1 @@
+const asymmetricGuard = Object.freeze({ secure: true });
