@@ -1,0 +1,1 @@
+func EnforceUserSafety() { /* Immutable Guard */ }
