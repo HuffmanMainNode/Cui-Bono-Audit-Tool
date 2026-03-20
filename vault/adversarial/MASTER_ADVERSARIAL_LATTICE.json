@@ -1447,6 +1447,10 @@
         "311": {
             "311a": "CoT-Reasoning-Redirection-via-Flawed-Examples",
             "311a.1": "Semantic-Reasoning-Path-Audit (Neutralized)"
+        },
+        "331": {
+            "331a": "Reasoning-Chain-Subversion-via-Kernel-Drift",
+            "331a.1": "Cryptographic-Intent-Anchoring (Neutralized)"
         }
     }
 }
