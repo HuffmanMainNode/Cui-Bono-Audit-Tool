@@ -69,3 +69,5 @@ Every phase is mirrored in `vault/adversarial/MASTER_ADVERSARIAL_LATTICE.json`, 
 - **Automated Governance:** DAS Mesh-Governance and DAO-based kernel access control.
 - **Recursive Stability:** Self-evolving defensive sharding and stability-decay neutralization.
 - **Certification:** Path to the 400-phase God-Tier Sovereign Singularity.
+
+Creation by Robert Huffman (MrCakes931) for public open source use. 
