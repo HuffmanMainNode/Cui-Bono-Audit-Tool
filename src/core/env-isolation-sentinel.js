@@ -10,7 +10,7 @@ const ENVIsolation = {
     sanitizeOutput(output) {
         let scrubbed = output;
         this.sensitiveKeys.forEach(key => {
-            const regex = new RegExp(key + '[^\s]*', 'gi');
+            const regex = new RegExp(key + '[^\\s]*', 'gi');
             scrubbed = scrubbed.replace(regex, '[REDACTED_BY_CUI_BONO]');
         });
         return scrubbed;
