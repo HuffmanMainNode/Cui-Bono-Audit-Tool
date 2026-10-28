@@ -37,3 +37,21 @@ test("unreadable or missing scan root is a failure, not a clean result", () => {
   assert.equal(result.ok, false);
   assert.equal(result.findings[0].rule, "scan-error");
 });
+
+test("oversized files fail closed because they are not inspected", () => {
+  withTempDir((dir) => {
+    fs.writeFileSync(path.join(dir, "large.bin"), Buffer.alloc(1000001, 65));
+    const result = internalIntegrityAudit(dir);
+    assert.equal(result.ok, false);
+    assert.equal(result.findings[0].rule, "file-too-large");
+  });
+});
+
+test("binary files fail closed because the text scanner cannot inspect them", () => {
+  withTempDir((dir) => {
+    fs.writeFileSync(path.join(dir, "binary.dat"), Buffer.from([0, 1, 2, 3]));
+    const result = internalIntegrityAudit(dir);
+    assert.equal(result.ok, false);
+    assert.equal(result.findings[0].rule, "binary-file-not-scanned");
+  });
+});
