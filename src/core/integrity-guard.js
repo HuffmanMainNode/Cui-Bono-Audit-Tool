@@ -30,9 +30,15 @@ function scanDirectory(directory, root, findings, scanned) {
     if (!entry.isFile()) continue;
     try {
       const info = fs.statSync(file);
-      if (info.size > 1000000) continue;
+      if (info.size > 1000000) {
+        findings.push({ file: path.relative(root, file), rule: "file-too-large", message: "File exceeds the scanner size limit; scan incomplete." });
+        continue;
+      }
       const buffer = fs.readFileSync(file);
-      if (buffer.includes(0)) continue;
+      if (buffer.includes(0)) {
+        findings.push({ file: path.relative(root, file), rule: "binary-file-not-scanned", message: "Binary file skipped; scan incomplete." });
+        continue;
+      }
       const text = buffer.toString("utf8");
       scanned.count += 1;
       for (const rule of SECRET_PATTERNS) {
