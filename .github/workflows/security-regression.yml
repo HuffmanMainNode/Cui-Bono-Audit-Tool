@@ -1,0 +1,30 @@
+name: Security regression tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "23 8 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: security-tests-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  regression-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+      - name: Run integrity scanner regression tests
+        run: node --test tests/integrity-guard.test.js
+      - name: Run Python safety-boundary tests
+        run: python -m unittest discover -s tests -p 'test_*.py' -v
+      - name: Compile Python security module
+        run: python -m py_compile src/cures/python-security-layer.py
