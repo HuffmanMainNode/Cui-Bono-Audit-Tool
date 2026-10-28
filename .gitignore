@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+*-credentials.json
+client_secret*.json
+token.json
+
+# Local databases and runtime data
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Generated files
+node_modules/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+dist/
+build/
+coverage/
