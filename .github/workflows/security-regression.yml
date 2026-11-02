@@ -22,8 +22,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
-      - name: Run integrity scanner regression tests
-        run: node --test tests/integrity-guard.test.js
+      - name: Run JavaScript regression tests
+        run: node --test tests/*.test.js
       - name: Run Python safety-boundary tests
         run: python -m unittest discover -s tests -p 'test_*.py' -v
       - name: Compile Python security module
