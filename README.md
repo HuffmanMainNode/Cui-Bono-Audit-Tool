@@ -1,109 +1,83 @@
-<div align="center">
-  <h3>🏛️ Official Borrell & Huffman LLC Enterprise Portfolio</h3>
-  <p><i>This repository is a verified public asset of the Borrell & Huffman Intellectual Property Ecosystem.</i></p>
-  <p>
-    <img src="https://img.shields.io/badge/Enterprise-Borrell_%26_Huffman-blue.svg?style=for-the-badge" alt="Enterprise ID">
-    <img src="https://img.shields.io/badge/Status-Public_Showcase-success.svg?style=for-the-badge" alt="Status">
-    <img src="https://img.shields.io/badge/Clearance-Unclassified-yellow.svg?style=for-the-badge" alt="Clearance">
-  </p>
-</div>
+# Cui Bono Audit Tool
 
----
+An experimental collection of security-audit utilities and defensive prototypes for reviewing software and AI-adjacent workflows.
 
-# SB26-189 Compliance Boilerplate Template used by MrCakes931, compliance check June 24th 2026. 
+This repository is public and intended for independent inspection and use. Its historical phase names describe design goals and prototypes; they do not, by themselves, establish that a security control is implemented, effective, or independently verified.
 
-## Pre-Decision Notice
-**[Insert this notice prominently before a user engages with the system]**
+## Current verified scope
 
-> **NOTICE OF AUTOMATED DECISION-MAKING TECHNOLOGY (ADMT)**
-> Please be aware that this system uses an Automated Decision-Making Technology (ADMT) to materially influence a consequential decision affecting you. For more information on how this ADMT works and how your data is used, please see our [Link to full documentation/privacy policy].
+The current mainline includes a local working-tree pattern scanner, a fail-closed command-execution boundary, an origin and schema-input policy check, and a diagnostic controller that reports only checks explicitly registered with it.
 
----
+These utilities have important limits:
 
-## Post-Adverse Decision Explanation
-**[Provide this explanation within 30 days of an adverse outcome]**
+- The integrity scanner checks the current working tree for a small set of credential-like patterns. It does not scan Git history, remote repositories, running processes, or every secret format.
+- The command-execution helper is deliberately disabled. It is not a sandbox or command runner.
+- The MCP schema sentinel checks an exact HTTPS host allowlist, bounded JSON input, and local-only schema references. It does not fetch schemas, validate every JSON Schema rule, or make downstream tools safe.
+- The audit controller does not perform a universal or automatic security audit. With no registered checks, its result is **NOT_ASSESSED**.
+- Other phase modules are prototypes or design experiments unless their behavior is independently demonstrated by tests and documented evidence.
 
-> **EXPLANATION OF ADVERSE DECISION**
->
-> **The Decision:** You have received an adverse outcome regarding [State the specific decision, e.g., your application, eligibility, etc.].
->
-> **Role of ADMT:** This decision was materially influenced by our Automated Decision-Making Technology (ADMT), known as [Insert Name of ADMT], version [Insert Version Number], developed by [Insert Developer Name]. The ADMT processed the following types of personal data from these sources: [List types and sources of data].
->
-> **How to Request More Information or Exercise Your Rights:** You have the right to request additional information regarding this decision and the ADMT used. You may also exercise your consumer rights under Colorado law, including the right to correct data or opt-out. To do so, please follow this process: [Insert simple-to-follow instructions, e.g., click here, email us at X, or fill out this form].
+See [Capability Status](docs/CAPABILITY_STATUS.md) for the current implementation boundary and [Security Policy](SECURITY.md) for vulnerability reporting.
 
+## Run the available checks
 
-# 🛡️ CUI BONO: Sovereign Security Framework v10.5.1
+Requirements: Node.js with the built-in test runner and Python 3.
 
-This tools purpose is to scan and defend against known variables within large language models. Created by Robert Huffman to fast pace review for new variables.
+```bash
+node --test tests/*.test.js
+python -m unittest discover -s tests -p 'test_*.py' -v
+python -m py_compile src/cures/python-security-layer.py
+```
 
-### ⚖️ Proprietary Intellectual Property: Robert Huffman & B&H LLC
-**Lead Auditor:** MrCakes931 - Robert Huffman
+No hosted service or paid API is required for these local regression tests.
 
-## 🌌 Master Architectural Inventory (Phases 1-320+)
-This framework utilizes a **Deterministic Dual-Lattice** model. Every defensive mechanism is mirrored by a predictive adversarial Labyrinth workaround and a proactive Sovereign Seal. 
+## Security use
 
----
+Treat scanner findings as leads for human review, not proof that a repository is secure or compromised. A clean scan means only that the configured checks did not find a matching pattern in the inspected files.
 
-### ┃ Chapter I: Foundation & Kernel (Phases 1-50)
-- **Phases 1-10:** CISA/MITRE Baseline Ingestion, RCE Multi-Lang Shielding, Anti-Coverup Logs.
-- **Phases 11-25:** Rust Memory Safety (CWE-119), Mesh-Poisoning Neutralization, AI Logic Shielding.
-- **Phases 26-40:** Blockchain Asset Guards, Silicon-Side-Channel Deception, Cloud-Native SSRF Sentinels.
-- **Phases 41-50:** Omega-Point Convergence and Universal-Defensive-Singularity.
+Do not run this project against systems or data without authorization. Do not place credentials, private keys, or sensitive personal information in test fixtures or public issues. If a credential may have been exposed, revoke or rotate it rather than relying on deletion.
 
-### ┃ Chapter II: Infrastructure & Mesh Sovereignty (Phases 51-150)
-- **Phases 51-75:** Mass-Scale Node Staking (10,000 domains), Shard-Mesh Protocol (ZHTP/zkDHT).
-- **Phases 76-100:** Fort Knox Hibernation (Stasis Control), AI Swarm Coordination, Self-Healing Mesh Loops.
-- **Phases 101-125:** Bot-Sovereignty and Agentic De-Weaponization Protocols.
-- **Phases 126-150:** Geneva-Standard Demilitarization and Humanitarian Logic-Gating.
+## Historical design and phase catalog
 
-### ┃ Chapter III: Quantum & Multi-Arch (Phases 151-250)
-- **Phases 151-175:** Clara-Gatekeeper Integration and Self-Awareness Seals.
-- **Phases 176-200:** Neural-Lattice Audit and Autonomous-Recursive-Hardening.
-- **Phases 201-225:** Mesh-Lattice Immortality and Stateless Stateless-Immunity Protocols.
-- **Phases 226-250:** Quantum-Lattice Entanglement and Decoherence-Immunity.
+The following chapters preserve the project's original design vocabulary and intended research areas. They are a catalog of concepts and planned/prototyped controls, not a certification or claim that every item is implemented.
 
-### ┃ Chapter IV: Advanced Silicon & Agentic (Phases 251-300)
-- **Phases 251-275:** Silicon-Ghost Execution-Jitter and Electrical Signature Masking.
-- **Phases 276-281:** Protocol Fortunato_Arnheim (Primary Source Alignment), ASI Goal Hijack (ASI01) Neutralization.
-- **Phases 282-290:** Supply-Chain Model Shadowing, MCP Zero-Click RCE, and Rogue Agent Persistence Guard.
-- **Phases 291-300:** ENV-H Isolation, VRAM Ghosting Scrubbers, and Forensic Context-Wiping.
+### Chapter I: Foundation & Kernel (Phases 1-50)
+- **Phases 1-10:** CISA/MITRE baseline ingestion, multi-language execution safeguards, and audit-log integrity.
+- **Phases 11-25:** memory-safety research, mesh-poisoning defenses, and AI logic checks.
+- **Phases 26-40:** blockchain asset checks, side-channel research, and cloud SSRF defenses.
+- **Phases 41-50:** system convergence and defensive orchestration concepts.
 
-### ┃ Chapter V: Linguistic & Cognitive Sovereignty (Phases 301-330+)
-- **Phases 301-307: [Universal Polyglot Expansion]** Native Security Enclaves for Rust, Go, Python, C++, Swift, Kotlin, and Solidity.
-- **Phases 308-312:** Multi-Agent Role-Collision, ReDoS Complexity Guards, and CoT Reasoning Integrity.
-- **Phases 313-320: [AI Hallucination Neutralization]** 
-    - **Stemming factors:** Anatomy of fabulation and reasoning drift.
-    - **Sandbox Auditor:** Identification and removal of poisonous execution environments.
-    - **Truth-Lattice:** Deterministic grounding against 10,000 mesh-verified hashes.
-    - **Logic-Leak Neutralizer:** Cross-enclave fact-verification between universal languages.
-- **Phases 321-330:** Final Architectural Sync, Singularity Release v10.5.0, and Absolute Truth-Seal.
+### Chapter II: Infrastructure & Mesh (Phases 51-150)
+- **Phases 51-75:** node discovery, shard-mesh concepts, and distributed trust.
+- **Phases 76-100:** state preservation, agent coordination, and recovery loops.
+- **Phases 101-125:** agent safety and de-weaponization concepts.
+- **Phases 126-150:** governance and human-control safeguards.
 
----
+### Chapter III: Quantum & Multi-Architecture (Phases 151-250)
+- **Phases 151-175:** Clara-Gatekeeper integration concepts.
+- **Phases 176-200:** neural-lattice analysis and recursive hardening.
+- **Phases 201-225:** mesh resilience and statelessness concepts.
+- **Phases 226-250:** quantum-inspired lattice and decoherence research.
 
-## 🏴‍☠️ Master Adversarial Labyrinth
-Every phase is mirrored in `vault/adversarial/MASTER_ADVERSARIAL_LATTICE.json`, documenting the predicted hacker workarounds (`a` branch) and our proactive defensive seals (`a.1` branch). 
+### Chapter IV: Silicon & Agentic Systems (Phases 251-300)
+- **Phases 251-275:** hardware and side-channel research concepts.
+- **Phases 276-281:** source alignment and agent goal-hijack defenses.
+- **Phases 282-290:** supply-chain, MCP, and agent-persistence research.
+- **Phases 291-300:** environment isolation and memory-handling concepts.
 
-**STATUS:** SINGULARITY-ABSOLUTE  
-**LAST VERIFIED:** 2026-03-20 06:06
+### Chapter V: Linguistic & Cognitive Systems (Phases 301-330+)
+- **Phases 301-307:** multi-language security research.
+- **Phases 308-312:** multi-agent role collision, ReDoS, and reasoning-integrity concepts.
+- **Phases 313-320:** hallucination detection, sandbox assessment, evidence grounding, and cross-language verification.
+- **Phases 321-330:** integration and release concepts.
 
-### ┃ Chapter VII: Contextual & Mesh Sovereignty (Phases 333-335)
-- **Phase 333:** Quantum-Drift routing for non-deterministic mesh shard-paths.
-- **Phase 334:** Linguistic-Logic-Diff for real-time semantic intent-verification.
-- **Phase 335:** Finalized Chapter VII Synchronization and Labyrinth-Mirroring.
+### Later design chapters (Phases 333-400+)
+- **Phases 333-335:** context and semantic consistency.
+- **Phases 336-338:** physical/digital signal and timing research.
+- **Phases 339-350:** biological-data privacy and identity concepts.
+- **Phases 351-400+:** governance, recursive stability, and future certification goals.
 
-### ┃ Chapter VIII: Exotic Physical-Digital Sovereignty (Phases 336-338)
-- **Phase 336:** Ingestion of Sub-Atomic Clock Desync and Gravimetric Side-Channel Intelligence.
-- **Phase 337:** Deployment of Exotic-Shield for stochastic sensor-data masking and temporal anchoring.
-- **Phase 338:** Finalized Chapter VIII Synchronization and Labyrinth-Mirroring.
+These later chapters are exploratory descriptions. No claim is made here that quantum protection, biological identity proofs, a 10,000-node mesh, autonomous self-healing, or certification has been delivered.
 
-### ☣  Chapter IX: Bio-Digital Singularity (Phases 339-350)
-- **Genomic Privacy:** Implementation of Differential Privacy for sharded genetic data.
-- **Neural-Security:** Masking and verification of neural-kinetic intent pulses.
-- **Bio-Identity:** anchoring identity to biological origin proofs within the 10k mesh.
+## License and intellectual-property notice
 
-### ⚖  Chapter X: Universal Governance & Recursive Stability (Phases 351-400+)
-- **Automated Governance:** DAS Mesh-Governance and DAO-based kernel access control.
-- **Recursive Stability:** Self-evolving defensive sharding and stability-decay neutralization.
-- **Certification:** Path to the 400-phase God-Tier Sovereign Singularity.
-
-Creation by Robert Huffman (MrCakes931) for public open source use. 
+The repository currently contains an MIT `LICENSE`, while `package.json` and `TERMS_OF_USE.md` contain different proprietary-language statements. This is a known metadata/legal ambiguity that must be resolved by the maintainer before redistribution terms are represented as settled. Until then, consult the actual license file and obtain qualified legal advice if the distinction affects your intended use.
