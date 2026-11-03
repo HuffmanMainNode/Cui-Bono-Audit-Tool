@@ -6,7 +6,7 @@ This repository is public and intended for independent inspection and use. Its h
 
 ## Current verified scope
 
-The current mainline includes a local working-tree pattern scanner, a fail-closed command-execution boundary, an origin and schema-input policy check, and a diagnostic controller that reports only checks explicitly registered with it.
+The current mainline includes a local working-tree pattern scanner, a fail-closed command-execution boundary, an origin and schema-input policy check, a diagnostic controller that reports only checks explicitly registered with it, and a bounded SHA-256 integrity checker for UTF-8 evidence records.
 
 These utilities have important limits:
 
@@ -14,9 +14,10 @@ These utilities have important limits:
 - The command-execution helper is deliberately disabled. It is not a sandbox or command runner.
 - The MCP schema sentinel checks an exact HTTPS host allowlist, bounded JSON input, and local-only schema references. It does not fetch schemas, validate every JSON Schema rule, or make downstream tools safe.
 - The audit controller does not perform a universal or automatic security audit. With no registered checks, its result is **NOT_ASSESSED**.
+- The evidence verifier compares supplied UTF-8 content with a recorded SHA-256 digest and byte length. It does not authenticate sources, prove factual claims, provide trusted timestamps, or create a persistent evidence archive.
 - Other phase modules are prototypes or design experiments unless their behavior is independently demonstrated by tests and documented evidence.
 
-See [Capability Status](docs/CAPABILITY_STATUS.md) for the current implementation boundary and [Security Policy](SECURITY.md) for vulnerability reporting.
+See [Capability Status](docs/CAPABILITY_STATUS.md), [Evidence Verification](docs/EVIDENCE_VERIFICATION.md), and [Legacy Module Reality Check](docs/LEGACY_MODULE_REALITY_CHECK.md) for implementation boundaries. See [Security Policy](SECURITY.md) for vulnerability reporting.
 
 ## Run the available checks
 

@@ -1,10 +1,7 @@
 {
-    "name": "cui-bono-audit-tool",
-    "version": "10.5.0-ABSOLUTE",
-    "description": "Universal Sovereign Security Singularity - 330+ Phases Ingested",
-    "author": "Robert Huffman / MrCakes931",
-    "license": "Proprietary",
-    "status": "Absolute-Neutralization-Active",
-    "architecture": "Dual-Lattice / Language-Agnostic",
-    "last_sync": "2026-03-20 06:08"
+  "name": "cui-bono-audit-tool",
+  "version": "10.5.0-ABSOLUTE",
+  "description": "Experimental security-audit utilities, defensive prototypes, and local evidence-integrity tools.",
+  "author": "Robert Huffman / MrCakes931",
+  "license": "Proprietary"
 }
