@@ -1,9 +1,7 @@
 # Capability Status
 
-**Review baseline:** 2026-11-02  
-**Scope:** Current default-branch source and regression-test paths inspected for the first modernization increment.
-
-This document distinguishes observed behavior from project concepts. It is not a security certification or a complete audit of every file.
+**Review baseline:** 2026-11-03  
+**Scope:** Implemented local utilities and the first evidence-integrity increment. This is not a security certification or a complete audit of every file.
 
 ## Implemented and tested behavior
 
@@ -13,6 +11,7 @@ This document distinguishes observed behavior from project concepts. It is not a
 | `src/cures/python-security-layer.py` | Rejects command execution and fails closed. | Not a sandbox or execution environment. |
 | `src/core/mcp-schema-sentinel.js` | Applies a fixed trusted-host policy and bounded checks to a supplied schema object. | Does not fetch remote schemas, implement full JSON Schema validation, or control downstream connector behavior. |
 | `src/core/master-audit-controller.js` | Runs registered diagnostic callbacks and reports their individual outcomes. | No checks are assumed or discovered automatically. No registered checks means NOT_ASSESSED. |
+| `src/core/evidence-verifier.js` | Creates bounded SHA-256 records for UTF-8 text and compares supplied content with the recorded digest and byte length. | Integrity comparison only. No source authentication, factual verification, trusted timestamp, signature, persistence, or binary evidence. |
 
 ## Prototype or unverified areas
 
@@ -29,10 +28,12 @@ Before a module is presented as an operational security control, it needs:
 
 - Historical README language implied completed mesh, quantum, and universal-security capabilities without evidence in the inspected implementation.
 - The README previously included an unfilled automated-decision-making notice template unrelated to the tool.
-- The README, package metadata, LICENSE, and TERMS_OF_USE.md did not express a consistent licensing position.
-- The previous audit controller returned unconditional success. The modernization replaces that behavior with measured outcomes from registered checks.
-- The previous MCP sentinel used substring host matching and serialized-text keyword matching. Those checks could reject harmless schemas and accept spoofed hostnames.
+- The README, package metadata, LICENSE, and TERMS_OF_USE.md do not express a consistent licensing position. This remains unresolved.
+- The audit controller now reports only registered diagnostic results and does not claim a universal security score.
+- The MCP sentinel uses exact HTTPS hostname checks and bounded schema input checks, but is not a full schema validator.
+- Legacy module limitations are documented in [Legacy Module Reality Check](LEGACY_MODULE_REALITY_CHECK.md).
+- Evidence-record behavior and limitations are documented in [Evidence Verification](EVIDENCE_VERIFICATION.md).
 
 ## Not established by this review
 
-This review does not establish that all 775 repository tree entries are correct, safe, non-duplicative, or functional. It does not constitute a penetration test, dependency audit, legal opinion, or independent cryptographic review.
+This review does not establish that all repository files are correct, safe, non-duplicative, or functional. It does not constitute a penetration test, complete dependency audit, legal opinion, independent cryptographic review, or source-authenticity assessment.
